@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(184, 60, 60);
+}
+
+header {
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.itensNav{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-logo {
+    
+}
+
+.searchlabel {
+    display: flex;
+    align-items: center;
+}
+
+.searchlabel a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: white !important; 
+    display: flex;
+    flex-direction: row;
+    padding: 1em 1em;
+    justify-content: space-between;
+}
+
+
+.gigante{
+    min-height: 1vh;
+}
+
+.gigantesco{
+    font-size: 35em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    
+}
